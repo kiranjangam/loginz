@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="login1.css">
+
+    <title>Tutor labs</title>
+</head>
+<body>
+<header>
+    <div class="topnav" id="myTopnav">
+        <div class="logo">
+            <a href="#">Tutor Labs</a>
+        </div>
+
+        <div class="topnavbar">
+
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">SERVICES</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="main-body">
+        <div class="main-container">
+            <div class="left-side">
+                <p class="login"><b>LOGIN</b></p><br>
+                <p class="lets">Let's get you<br><b>Learning</b></p><br>
+                <p class="please">Please login to start working.</p>
+            </div>
+            <div class="right-side">
+                <p class="login2">Login</p><br>
+                <p class="use">or use following methods</p><br>
+                <input type="image" src="Assets/google.png" alt="Submit">
+                <input type="image" src="Assets/facebook.png" alt="Submit">&nbsp;
+                <p class="new">New to <b>TutorLabs?&ensp;
+                        <a href="">Register</a></b></p><br>
+                <br>
+                <input type="text" name="UserName" id="Username" placeholder="Username or Email"><br><br><br>
+                <input type="password" name="password" id="password" placeholder="Password"><br><br>
+                <p style="color: #343C82;"><b>Forgot Password?</b></p><br>
+                <button class="but" type="button">Login</button>
+               
+            </div>
+        </div>
+    </div>
+
+
+  
+    <div class="footer">
+        <ul>
+            <li>Terms and Conditions</li>
+            <li>|</li>
+            <li>Privacy Policy</li>
+            <li>|</li>
+            <li>Help</li>
+            <li>|</li>
+            <li>Tutor Labs Licenses</li>
+            <li>|</li>
+            <li>Partners</li>
+            <li>|</li>
+            <li class="flex">
+                <label for="Lang ">Language <b>English</b></label>
+                
+            </li>
+        </ul>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
